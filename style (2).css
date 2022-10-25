@@ -1,0 +1,502 @@
+.bulb-1,
+.bulb-2,
+.bulb-3,
+.bulb-4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 45%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 12%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.home {
+    background: url("images/diya\ -\ Copy.jpg");
+    margin: 0;
+    margin-bottom: 60px;
+    height: 100vh;
+}
+
+.bulb-1 {
+    background-color: rgb(116, 19, 19);
+
+}
+
+.bulb-2 {
+    background-color: rgb(248, 36, 78);
+}
+
+.bulb-3 {
+    background-color: rgb(252, 111, 59);
+}
+
+.bulb-4 {
+    background-color: rgb(124, 44, 15);
+}
+
+h3 {
+    font-size: 38px;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#bulb {
+    margin-left: 100px;
+}
+
+#bulb2 {
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#yel {
+    color: red;
+}
+
+#ora {
+    color: yellow;
+}
+
+#red {
+    color: orange;
+}
+
+p {
+    color: #fff;
+    ;
+    font-size: 18px;
+}
+
+#text-mid {
+    color: #fff;
+}
+
+.god {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    background-color: rgb(252, 111, 59);
+    color: #fff;
+    width: 290px;
+    height: 30px;
+    margin-top: 20%;
+
+}
+
+#form:hover {
+    background-color: rgb(124, 44, 15);
+}
+
+#btn {
+
+    background-color: rgb(248, 36, 78);
+    display: block;
+    width: 292px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+#btn:hover {
+    background-color: rgb(116, 19, 19);
+}
+
+h5 {
+    visibility: hidden;
+}
+
+.wish {
+    height: 300px;
+    width: 288px;
+    background-color: darksalmon;
+    /* border-radius: 10%; */
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+#diya {
+    width: 268px;
+    height: 229px;
+}
+
+#hindi {
+    font-size: 24px;
+    padding-top: 13px;
+    color: crimson;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+    align-items: flex-start;
+
+
+}
+
+.nav {
+    display: block;
+    cursor: pointer;
+}
+
+li {
+    padding: 0px 30px;
+    text-align: center;
+    font-size: 22px;
+    align-items: flex-start;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.h8 img,
+.tecno img,
+.campus img {
+    width: 380px;
+    height: 380px;
+    margin: 2vw 4vw;
+
+
+}
+
+h3 {
+    color: black;
+}
+
+.all,
+.h8,
+.tecno,
+.campus {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+#italics {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.color {
+    color: #fff;
+}
+
+.bottom {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 24px;
+
+
+
+}
+
+
+@media (max-width:1425px) and (min-width:770px) {
+
+    .bulb-1,
+    .bulb-2,
+    .bulb-3,
+    .bulb-4 {
+        height: 80px;
+        width: 80px;
+        margin-top: 10%;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+
+
+    }
+
+    .home {
+        background: url("images/diya\ -\ Copy.jpg");
+        margin: 0;
+        height: 450px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 7px;
+        display: hidden;
+    }
+
+    h5 {
+        visibility: visible;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .god {
+        height: 60px;
+        width: 60px;
+    }
+
+    .hide {
+        visibility: hidden;
+    }
+
+    #form {
+        width: 120px;
+        height: 18px;
+        margin-top: 20px;
+        font-size: 10px;
+        /* padding: 0 12px; */
+
+    }
+
+    #btn {
+        width: 120px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0 12px;
+    }
+
+    .wish {
+        height: 120px;
+        width: 120px;
+        padding: 0 12px;
+    }
+
+    #diya {
+        width: 99px;
+        height: 75px;
+    }
+
+    #hindi {
+        font-size: 10px;
+        padding-top: 12px;
+    }
+
+    .h8 img,
+    .tecno img,
+    .campus img {
+        width: 90%;
+        height: 280px;
+        width: 280px;
+    }
+
+    .all,
+    .h8,
+    .tecno,
+    .campus {
+        display: block;
+    }
+
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #italics {
+        font-size: 12px;
+    }
+
+
+    .bottom {
+        font-size: 10px;
+
+    }
+
+    .hidembl {
+        visibility: hidden;
+    }
+
+    a {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:770px) and (min-width:100px) {
+
+    .bulb-1,
+    .bulb-2,
+    .bulb-3,
+    .bulb-4 {
+        height: 60px;
+        width: 20px;
+        margin-top: 10%;
+
+
+    }
+
+    .home {
+        background: url("images/diya\ -\ Copy.jpg");
+        margin: 0;
+        height: 450px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 3px;
+        display: hidden;
+    }
+
+    h5 {
+        visibility: visible;
+        font-size: 21px;
+        color: #fff;
+    }
+
+    .god {
+        height: 50px;
+        width: 50px;
+    }
+
+    .hide {
+        visibility: hidden;
+    }
+
+    #form {
+        width: 72px;
+        height: 10px;
+        margin-top: 20px;
+        font-size: 8px;
+        padding: 0 10px;
+
+    }
+
+    #btn {
+        width: 72px;
+        height: 20px;
+        font-size: 7px;
+        padding: 0 10px;
+    }
+
+    .wish {
+        height: 60px;
+        width: 72px;
+        padding: 0 10px;
+    }
+
+    #diya {
+        width: 40px;
+        height: 27px;
+    }
+
+    #hindi {
+        font-size: 6px;
+        padding-top: 10px;
+    }
+
+    .h8 img,
+    .tecno img,
+    .campus img {
+        width: 90%;
+        height: 260px;
+    }
+
+    .all,
+    .h8,
+    .tecno,
+    .campus {
+        display: block;
+    }
+
+
+    h3 {
+        font-size: 18px;
+    }
+
+    #italics {
+        font-size: 10px;
+    }
+
+
+    .bottom {
+        font-size: 8px;
+
+    }
+
+    .hidembl {
+        visibility: hidden;
+    }
+
+    a {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+}
